@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @return ${1:type}
+ */
+public function get${2/^([a-z])/\U\1/g}()
+{
+    return \$this->_${2:param};
+}
+
+/**
+ * @param  ${1:type} \$${2:param}
+ * @return self
+ */
+public function set${2/^([a-z])/\U\1/g}(\$${2:param})
+{
+    \$this->_${2:param} = \$${2:param};
+    return \$this;
+}
+]]></content>
+    <tabTrigger>getsets</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

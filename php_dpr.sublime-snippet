@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+die('<pre>' . print_r(${1:param}, true) . '</pre>' . PHP_EOL);
+]]></content>
+    <tabTrigger>dpr</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

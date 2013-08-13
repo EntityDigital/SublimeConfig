@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+get_class(\$${1:e}) . PHP_EOL . \$${1:e}->getMessage() . PHP_EOL . \$${1:e}->getTraceAsString()
+]]></content>
+    <tabTrigger>ex</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
