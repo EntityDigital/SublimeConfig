@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+echo ${1:param} . PHP_EOL;
+]]></content>
+    <tabTrigger>enl</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

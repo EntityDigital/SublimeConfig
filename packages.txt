@@ -1,6 +1,0 @@
-DocBlockr.sublime-package
-Package Control.sublime-package
-Theme - Flatland.sublime-package
-INI.sublime-package
-Sass.sublime-package
-Theme - Soda.sublime-package
